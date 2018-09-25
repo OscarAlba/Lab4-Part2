@@ -6,15 +6,29 @@
 
 
 
-var Network = ( function(){
+var RestControllerModule = (function () {
 
-        
-        
-    return {
-    publicMethod: function () {
-      // code
-    }
-};
-        
-        }
-)();
+  var getOrders = function (callback) {
+    // todo implement
+  };
+
+  var updateOrder = function (order, callback) {
+    // todo implement
+  };
+
+  var deleteOrder = function (orderId, callback) {
+    // todo implement
+  };
+
+  var createOrder = function (order, callback) {
+    // todo implement
+  };
+
+  return {
+    getOrders: getOrders,
+    updateOrder: updateOrder,
+    deleteOrder: deleteOrder,
+    createOrder: createOrder
+  };
+
+})();

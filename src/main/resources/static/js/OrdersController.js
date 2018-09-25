@@ -1,24 +1,44 @@
 /* global axios */
 
 
-var FrontEnd = (function(){
+var OrdersControllerModule = (function () {
 
-   var privateMethod = function () {};
+  var showOrdersByTable = function () {
+    //Todo implement
 
-  var myObject = {
-    someMethod:  function () {
+    var callback = {
 
-    },
-    anotherMethod:  function () {
-      
+        onSuccess: function(ordersList){
+            //Todo implement
+
+            },
+        onFailed: function(exception){
+        //Todo implement
+        }
     }
+    //RestaurantRestController.getOrders(callback)
   };
-  
-  return myObject;
-    
-    
-  
- })();
+
+  var updateOrder = function () {
+    // todo implement
+  };
+
+  var deleteOrderItem = function (itemName) {
+    // todo implement
+  };
+
+  var addItemToOrder = function (orderId, item) {
+    // todo implement
+  };
+
+  return {
+    showOrdersByTable: showOrdersByTable,
+    updateOrder: updateOrder,
+    deleteOrderItem: deleteOrderItem,
+    addItemToOrder: addItemToOrder
+  };
+
+})();
 
 
 
