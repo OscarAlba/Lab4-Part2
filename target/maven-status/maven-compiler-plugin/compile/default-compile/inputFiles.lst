@@ -1,0 +1,14 @@
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\model\ProductType.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\services\RestaurantOrderServicesStub.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\RestapidemoApplication.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\beans\TaxesCalculator.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\model\Order.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\beans\impl\colombia\StandardTaxesCalculator.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\restcontrollers\OrdersAPIController.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\model\RestaurantProduct.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\beans\BillCalculator.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\services\RestaurantOrderServices.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\beans\impl\colombia\TaxesCalculator2016ColTributaryReform.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\beans\impl\BasicBillCalculator.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\services\OrderServicesException.java
+C:\Users\2106991\Downloads\Lab4-master\src\main\java\edu\eci\arsw\myrestaurant\beans\impl\BillWithTaxesCalculator.java

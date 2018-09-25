@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.eci.arsw.myrestaurant.test.ApplicationServicesTests" time="0.026" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="user.country.format" value="CO"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/oscaralba/Desktop/Lab3-Arsw"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9z/vv0ygy4168z8g856gkrszf7c0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/oscaralba/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/oscaralba"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="OscarAlba"/>
+    <property name="java.class.path" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="/Users/oscaralba/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="ItShouldNotCalculateTheTotalBillIfTheTableDoesNotExist" classname="edu.eci.arsw.myrestaurant.test.ApplicationServicesTests" time="0.025">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at edu.eci.arsw.myrestaurant.test.ApplicationServicesTests.ItShouldNotCalculateTheTotalBillIfTheTableDoesNotExist(ApplicationServicesTests.java:35)
+</error>
+    <system-out><![CDATA[23:16:19.645 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.654 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:16:19.663 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:16:19.685 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:16:19.701 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests], using SpringBootContextLoader
+23:16:19.706 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: class path resource [edu/eci/arsw/myrestaurant/test/ApplicationServicesTests-context.xml] does not exist
+23:16:19.706 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: class path resource [edu/eci/arsw/myrestaurant/test/ApplicationServicesTestsContext.groovy] does not exist
+23:16:19.706 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:16:19.707 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: ApplicationServicesTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:16:19.749 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.794 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:16:19.795 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:16:19.795 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:16:19.805 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/eci/arsw/myrestaurant/test/] to resources [URL [file:/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/test/]]
+23:16:19.805 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/test]
+23:16:19.805 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/test] for files matching pattern [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/test/*.class]
+23:16:19.808 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/eci/arsw/myrestaurant/test/*.class] to resources [file [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/test/ApplicationServicesTests.class]]
+23:16:19.825 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [edu/eci/arsw/myrestaurant/] to resources [URL [file:/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/], URL [file:/Users/oscaralba/Desktop/Lab3-Arsw/target/classes/edu/eci/arsw/myrestaurant/]]
+23:16:19.825 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant]
+23:16:19.826 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant] for files matching pattern [/Users/oscaralba/Desktop/Lab3-Arsw/target/test-classes/edu/eci/arsw/myrestaurant/*.class]
+23:16:19.826 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/oscaralba/Desktop/Lab3-Arsw/target/classes/edu/eci/arsw/myrestaurant]
+23:16:19.826 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/oscaralba/Desktop/Lab3-Arsw/target/classes/edu/eci/arsw/myrestaurant] for files matching pattern [/Users/oscaralba/Desktop/Lab3-Arsw/target/classes/edu/eci/arsw/myrestaurant/*.class]
+23:16:19.828 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:edu/eci/arsw/myrestaurant/*.class] to resources [file [/Users/oscaralba/Desktop/Lab3-Arsw/target/classes/edu/eci/arsw/myrestaurant/RestapidemoApplication.class]]
+23:16:19.859 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/oscaralba/Desktop/Lab3-Arsw/target/classes/edu/eci/arsw/myrestaurant/RestapidemoApplication.class]
+23:16:19.860 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration edu.eci.arsw.myrestaurant.RestapidemoApplication for test class edu.eci.arsw.myrestaurant.test.ApplicationServicesTests
+23:16:19.866 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: using defaults.
+23:16:19.882 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:16:19.903 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:16:19.904 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:16:19.904 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@dd3b207, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@551bdc27, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@58fdd99, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b1274d2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bc1a03d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@70b0b186, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@ba8d91c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7364985f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5d20e46, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@709ba3fb]
+23:16:19.907 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.907 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.911 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.911 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:16:19.911 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:16:19.912 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:16:19.914 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests], using SpringBootContextLoader
+23:16:19.915 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: class path resource [edu/eci/arsw/myrestaurant/test/ApplicationServicesTests-context.xml] does not exist
+23:16:19.915 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: class path resource [edu/eci/arsw/myrestaurant/test/ApplicationServicesTestsContext.groovy] does not exist
+23:16:19.916 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:16:19.916 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: ApplicationServicesTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:16:19.929 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.930 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:16:19.930 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:16:19.931 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:16:19.931 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration edu.eci.arsw.myrestaurant.RestapidemoApplication for test class edu.eci.arsw.myrestaurant.test.ApplicationServicesTests
+23:16:19.933 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]: using defaults.
+23:16:19.935 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+23:16:19.939 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:16:19.940 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:16:19.940 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@525f1e4e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@75f9eccc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52aa2946, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4de5031f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@67e2d983, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5d47c63f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ea434c8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3bbc39f8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ae3c1cd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@29f69090]
+23:16:19.941 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.941 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.942 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.942 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.947 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5b0abc94 testClass = ApplicationServicesTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@75c072cb testClass = ApplicationServicesTests, locations = '{}', classes = '{class edu.eci.arsw.myrestaurant.RestapidemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@73846619, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5649fd9b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5f9d02cb], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+23:16:19.949 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.949 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.eci.arsw.myrestaurant.test.ApplicationServicesTests]
+23:16:19.977 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+23:16:19.977 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+23:16:19.978 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+23:16:19.979 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+23:16:19.979 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.1.RELEASE)
+
+2018-09-05 23:16:20.485  INFO 2447 --- [           main] e.e.a.m.test.ApplicationServicesTests    : Starting ApplicationServicesTests on 192.168.0.9 with PID 2447 (started by OscarAlba in /Users/oscaralba/Desktop/Lab3-Arsw)
+2018-09-05 23:16:20.486  INFO 2447 --- [           main] e.e.a.m.test.ApplicationServicesTests    : No active profile set, falling back to default profiles: default
+2018-09-05 23:16:20.522  INFO 2447 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@74e28667: startup date [Wed Sep 05 23:16:20 COT 2018]; root of context hierarchy
+2018-09-05 23:16:22.422  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@74e28667: startup date [Wed Sep 05 23:16:20 COT 2018]; root of context hierarchy
+2018-09-05 23:16:22.491  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/orders],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> edu.eci.arsw.myrestaurant.restcontrollers.OrdersAPIController.getOrders()
+2018-09-05 23:16:22.492  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/orders/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> edu.eci.arsw.myrestaurant.restcontrollers.OrdersAPIController.getOrderByTable(int)
+2018-09-05 23:16:22.493  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> edu.eci.arsw.myrestaurant.restcontrollers.OrdersAPIController.postOrder(java.util.Map<java.lang.Integer, edu.eci.arsw.myrestaurant.model.Order>)
+2018-09-05 23:16:22.493  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/orders/{idTable}/total],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> edu.eci.arsw.myrestaurant.restcontrollers.OrdersAPIController.getTotalTableBill(int)
+2018-09-05 23:16:22.493  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/orders/{idTable}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<?> edu.eci.arsw.myrestaurant.restcontrollers.OrdersAPIController.updateOrder(int,java.util.Map<java.lang.String, java.lang.Integer>)
+2018-09-05 23:16:22.494  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/orders/{idTable}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<?> edu.eci.arsw.myrestaurant.restcontrollers.OrdersAPIController.deleteOrder(int)
+2018-09-05 23:16:22.496  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-05 23:16:22.496  INFO 2447 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-05 23:16:22.531  INFO 2447 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-05 23:16:22.532  INFO 2447 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-05 23:16:22.578  INFO 2447 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-05 23:16:22.830  INFO 2447 --- [           main] e.e.a.m.test.ApplicationServicesTests    : Started ApplicationServicesTests in 2.837 seconds (JVM running for 3.604)
+]]></system-out>
+  </testcase>
+  <testcase name="ItShouldCalculateCorrectlyTheTotalBillIfTheTableExists" classname="edu.eci.arsw.myrestaurant.test.ApplicationServicesTests" time="0.001">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at edu.eci.arsw.myrestaurant.test.ApplicationServicesTests.ItShouldCalculateCorrectlyTheTotalBillIfTheTableExists(ApplicationServicesTests.java:44)
+</error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.eci.arsw.myrestaurant.test.ApplicationServicesTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.962 sec <<< FAILURE! - in edu.eci.arsw.myrestaurant.test.ApplicationServicesTests
+ItShouldNotCalculateTheTotalBillIfTheTableDoesNotExist(edu.eci.arsw.myrestaurant.test.ApplicationServicesTests)  Time elapsed: 0.025 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at edu.eci.arsw.myrestaurant.test.ApplicationServicesTests.ItShouldNotCalculateTheTotalBillIfTheTableDoesNotExist(ApplicationServicesTests.java:35)
+
+ItShouldCalculateCorrectlyTheTotalBillIfTheTableExists(edu.eci.arsw.myrestaurant.test.ApplicationServicesTests)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at edu.eci.arsw.myrestaurant.test.ApplicationServicesTests.ItShouldCalculateCorrectlyTheTotalBillIfTheTableExists(ApplicationServicesTests.java:44)
+
