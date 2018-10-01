@@ -25,24 +25,21 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @SpringBootTest()
 public class ApplicationServicesTests {
 
-    
+    @Autowired
     RestaurantOrderServicesStub ros;
 
     
     @Test
-    public void ItShouldNotCalculateTheTotalBillIfTheTableDoesNotExist() throws OrderServicesException{
-        try{
-            int totalBill = ros.calculateTableBill(4);
-            fail("The test has fail");
-        } catch(OrderServicesException e){
-            assertEquals("Mesa inexistente o ya liberada:" + 4, e.getMessage());
-        }
+    public void contextLoads() throws OrderServicesException{        
+        
     }
     
     @Test
-    public void ItShouldCalculateCorrectlyTheTotalBillIfTheTableExists() throws OrderServicesException{
-        assertEquals(ros.calculateTableBill(1), 45302);
-        assertEquals(ros.calculateTableBill(3), 32290);
+    public void calcularTotal() throws OrderServicesException{
+        int totalCalculado = ros.calculateTableBill(1);
+        float totalEsperado = (10000*3)+(10000*3*0.19f)+(3000)+(3000*0.19f)+(1300*4)+(1300*4*0.16f);
+        int totalCalculadoManual = (int) totalEsperado;
+        org.junit.Assert.assertEquals(totalCalculado,totalCalculadoManual);
     }
-
+ 
 }
